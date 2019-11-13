@@ -7,8 +7,6 @@ app.get('/',(request,response)=>{
 
 require('./routes/route.student.js')(app);
 
-console.log(getSum(4,3));
-
 app.listen(3000,()=>{
     console.log('server running:3000')
 });
